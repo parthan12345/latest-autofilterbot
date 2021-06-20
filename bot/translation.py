@@ -4,7 +4,7 @@
 
 class Translation(object):
     
-    START_TEXT = """<b><u>Hey, How Are You{}!!</b></u>
+    START_TEXT = """<b><u>Hey, How Are You {}!!</b></u>
 <i>Am Just A Advance Auto Filter Bot Of Troll Cinemates....😉
 
 Dont Forget To Share Our Page🔥🔥🔥😝
