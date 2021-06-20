@@ -142,7 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<i>🔻 Check Links At @MalRok 🔻Found</i> <code>{leng}</code> <i>Results For Your Request 🔻:</i> <code>{query}</code>"
+    text=f"<i>🔻 Check Links At @trollcinemates 🔻Found</i> <code>{leng}</code> <i>Results For Your Request 🔻:</i> <code>{query}</code>"
         
     try:
         await update.message.edit(
@@ -1406,7 +1406,7 @@ async def cb_accuracy(bot, update: CallbackQuery):
         [
             InlineKeyboardButton
                 (
-                    "80 %", callback_data=f"set(accuracy|0.80|{chat_id}|{val})"
+                    "85 %", callback_data=f"set(accuracy|0.80|{chat_id}|{val})"
                 )
         ],
         [
