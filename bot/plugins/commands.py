@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🚫 Our Kingdom 🚫 (ചാനൽ ഒന്ന് സബ്സ്ക്രൈബ് ചെയ്യ് മുത്തേ)🔻', url="https://t.me/trollcinemates"
+                                    '🚫 Our Kingdom 🚫 ചാനൽ ഒന്ന് സബ്സ്ക്രൈബ് ചെയ്യ് മുത്തേ🔻', url="https://t.me/trollcinemates"
                                 )
                         ]
                     ]
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🚫 Our Kingdom 🚫 (ചാനൽ ഒന്ന് സബ്സ്ക്രൈബ് ചെയ്യ് മുത്തേ)🔻', url="https://t.me/trollcinemates"
+                                    '🚫 Our Kingdom 🚫 ചാനൽ ഒന്ന് സബ്സ്ക്രൈബ് ചെയ്യ് മുത്തേ🔻', url="https://t.me/trollcinemates"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🚫 Our Kingdom 🚫 (ചാനൽ ഒന്ന് സബ്സ്ക്രൈബ് ചെയ്യ് മുത്തേ)🔻 ', url="https://t.me/trollcinemates"
+                                    '🚫 Our Kingdom 🚫 ചാനൽ ഒന്ന് സബ്സ്ക്രൈബ് ചെയ്യ് മുത്തേ🔻 ', url="https://t.me/trollcinemates"
                                 )
                         ]
                     ]
@@ -89,10 +89,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('Developers', url='https://t.me/trollcinemates'),
+        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/shanil2255/AutoFilterV3/edit/main/bot/plugins/commands.py')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('Support 🛠', url='https://t.me/troll_cinemates')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
