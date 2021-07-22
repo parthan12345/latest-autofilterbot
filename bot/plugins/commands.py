@@ -30,7 +30,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = f"{file_name} \n @trollcinemates",
+                caption = f"{file_name} \n @MovieHUB_Chat_Group",
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🚫 Our Kingdom 🚫 ചാനൽ ഒന്ന് സബ്സ്ക്രൈബ് ചെയ്യ് മുത്തേ🔻', url="https://t.me/trollcinemates"
+                                    '🏅OUR CHANNEL🏅', url="https://t.me/joinchat/1M0xFlFZ5PRhZGQ9"
                                 )
                         ]
                     ]
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🚫 Our Kingdom 🚫 ചാനൽ ഒന്ന് സബ്സ്ക്രൈബ് ചെയ്യ് മുത്തേ🔻', url="https://t.me/trollcinemates"
+                                    '🏅OUR CHANNEL🏅', url="https://t.me/joinchat/1M0xFlFZ5PRhZGQ9"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🚫 Our Kingdom 🚫 ചാനൽ ഒന്ന് സബ്സ്ക്രൈബ് ചെയ്യ് മുത്തേ🔻', url="https://t.me/trollcinemates"
+                                    '🏅OUR CHANNEL🏅', url="https://t.me/joinchat/1M0xFlFZ5PRhZGQ9"
                                 )
                         ]
                     ]
@@ -89,10 +89,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/trollcinemates'),
+        InlineKeyboardButton('Developers', url='https://t.me/MovieHUB_Chat_Group'),
         InlineKeyboardButton('Source Code 🧾', url ='https://github.com/shanil2255/AutoFilterV3/edit/main/bot/plugins/commands.py')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/troll_cinemates')
+        InlineKeyboardButton('Support 🛠', url='https://t.me/MovieHUB_Chat_Group')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
