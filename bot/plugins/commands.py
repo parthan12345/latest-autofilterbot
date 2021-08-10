@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🏅OUR CHANNEL🏅', url="https://t.me/joinchat/1M0xFlFZ5PRhZGQ9"
+                                    '🏅OUR CHANNEL🏅', url="https://t.me/MovieHUB_Update_Channel"
                                 )
                         ]
                     ]
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🏅OUR CHANNEL🏅', url="https://t.me/joinchat/1M0xFlFZ5PRhZGQ9"
+                                    '🏅OUR CHANNEL🏅', url="https://t.me/MovieHUB_Update_Channel"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🏅OUR CHANNEL🏅', url="https://t.me/joinchat/1M0xFlFZ5PRhZGQ9"
+                                    '🏅OUR CHANNEL🏅', url="https://t.me/MovieHUB_Update_Channel"
                                 )
                         ]
                     ]
