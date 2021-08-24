@@ -90,7 +90,7 @@ async def start(bot, update):
 
     buttons = [[
         InlineKeyboardButton('Developers', url='https://t.me/MovieHUB_Chat_Group'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/shanil2255/AutoFilterV3/edit/main/bot/plugins/commands.py')
+        InlineKeyboardButton('Source Code 🧾', url ='https://t.me/MovieHUB_Chat_Group')
     ],[
         InlineKeyboardButton('Support 🛠', url='https://t.me/MovieHUB_Chat_Group')
     ],[
