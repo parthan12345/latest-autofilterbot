@@ -95,7 +95,7 @@ async def cb_navg(bot, update: CallbackQuery):
 
     if not int(index_val) == 0:    
         temp_results.append([
-            InlineKeyboardButton(f"⭕️ Page {index_val + 1}/{len(results) if len(results) < max_pages else max_pages} ⭕️", callback_data="ignore")
+            InlineKeyboardButton(f"⭐️ Page {index_val + 1}/{len(results) if len(results) < max_pages else max_pages} ⭐️", callback_data="ignore")
         ])
     
     if show_invite and int(index_val) !=0 :
@@ -1608,7 +1608,7 @@ async def cb_about(bot, update: CallbackQuery):
         [
             InlineKeyboardButton
                 (
-                    "My Dev ⚡", url="https://t.me/AlbertEinstein_TG"
+                    "My Dev ⚡", url="https://t.me/MovieHUB_Chat_Group"
                 ),
                 
             InlineKeyboardButton
@@ -1639,10 +1639,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/AlbertEinstein_TG'),
-            InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Filter-Bot-V2')
+            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/MovieHUB_Chat_Group'),
+            InlineKeyboardButton('Source Code 🧾', url ='https://t.me/MovieHUB_Chat_Group')
         ],[
-            InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+            InlineKeyboardButton('Support 🛠', url='https://t.me/MovieHUB_Chat_Group')
         ],[
             InlineKeyboardButton('Help ⚙', callback_data="help")
         ]]
