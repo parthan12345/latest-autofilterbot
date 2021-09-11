@@ -142,7 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<i>🔻 Check Links At @MovieHUB_Chat_Group 🔻Found</i> <code>{leng}</code> <i>Results For Your Request 🔻:</i> <code>{query}</code>"
+    text=f"<b>🔻 Check Links At @MovieHUB_Update_Channel 🔻\n Found</b> <code>{leng}</code> <b>Results For Your Request 🔻:</b> <code>{query}</code> \n\n ⭕️𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗬𝗢𝗨𝗥 𝗥𝗘𝗤𝗨𝗘𝗦𝗧𝗘𝗗 𝗠𝗢𝗩𝗜𝗘𝗦👇🏻"
         
     try:
         await update.message.edit(
