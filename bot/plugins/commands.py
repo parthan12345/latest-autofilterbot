@@ -30,7 +30,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = f"{file_name} \n @MovieHUB_Chat_Group",
+                caption = f"{file_name}\n\n<b>🔰👉 കടുതൽ സിനിമകൾക്കും മറ്റു വിവരങ്ങൾക്കുമായി ഞങ്ങളുടെ ഗ്രൂപ്പിൽ ജോയിൻ ചെയ്യൂ</b>\n\n🌟 ༺ ──•◈•─ ─•◈•──༻ 🌟\n\n<b>➧ @MovieHUB_Update_Channel</b>\n<b>➧ @MH_Chat_Group</b>\n<b>➧ @MH_Links_Channel</b>\n<b>➧ @MovieHUB_Chat_Group</b>",
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
